@@ -5,7 +5,7 @@
 Q. 배열의 크기 N, 숫자가 더해지는 횟수 M, 연속 합가능수 K가 주어질 때 큰 수의 법칙 결과
    ex) [2, 4, 5, 4, 6], M = 8, K = 3 => 6 + 6 + 6 + 5 + 6 + 6 + 6 + 5
    
-ㅁ 나의 풀이
+# 나의 풀이
 N, M, K = map(int, input().split())
 data = list(map(int, input().split()))
 result = 0
@@ -24,7 +24,7 @@ for i in range(1, M+1):
 
 print(result)
 
-ㅁ 해답1
+# 해답1
 n, m, k = map(int, input().split())
 data = list(map(int, input().split()))
 
@@ -47,7 +47,7 @@ while True:
     
 print(result)
 
-ㅁ 해답2
+# 해답2
 n, m, k = map(int, input().split())
 data = list(map(int, input().split()))
 
