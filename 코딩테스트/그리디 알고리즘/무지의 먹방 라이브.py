@@ -19,8 +19,8 @@ while True :
         print(result+1)
         break
  
- # 풀이
- import heapq
+# 풀이
+import heapq
 
 def solution(food_times, k):
     if sum(food_times) <= k:
