@@ -8,9 +8,9 @@ k = int(input()) + 1
 result = 0
 
 while True :
-    for i in range(len(data)):
-        if data[i] > 0 :
-            data[i] -= 1 #먹은 음식 빼기
+    for i in range(len(food_times)):
+        if food_times[i] > 0 :
+            food_times[i] -= 1 #먹은 음식 빼기
             k -= 1       #시간체크
         if k == 0:
             result = i   #먹어야할 음식
