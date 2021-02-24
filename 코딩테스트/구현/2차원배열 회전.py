@@ -1,5 +1,6 @@
 a = [[1,2,3],[4,5,6],[7,8,9]]
 
+# 90도 회전
 def rotate_90_degree(a): 
     row_num = len(a)
     column_num = len(a[0])
@@ -14,6 +15,7 @@ def rotate_90_degree(a):
 
 rotate_90_degree(a)
 
+# 180도 회전
 def rotate_180_degree(a): 
     row_num = len(a)
     column_num = len(a[0])
@@ -28,6 +30,7 @@ def rotate_180_degree(a):
 
 rotate_180_degree(a)
 
+# 270도 회전
 def rotate_270_degree(a): 
     row_num = len(a)
     column_num = len(a[0])
