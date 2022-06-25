@@ -13,7 +13,6 @@ def solution(board, moves):
                     else:    
                         basket.append(board[i][move-1]) # 인형을 바구니로 이동
                         board[i][move-1] = 0 # 이동된 인형 제거
-                    break # 인형 이동후 새로 인형 뽑으러 이동
                 else: # 바구니에 든게 없으면
                     basket.append(board[i][move-1]) # 인형을 바구니로 이동
                     board[i][move-1] = 0 # 이동된 인형 제거
